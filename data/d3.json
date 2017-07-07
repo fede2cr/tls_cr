@@ -1,0 +1,476 @@
+{
+  "name": "Costa Rica",
+  "children": [
+    {
+      "name": "go.cr",
+      "children": [
+        {
+          "name": "https://www.poder-judicial.go.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 4
+        },
+        {
+          "name": "https://www.mideplan.go.cr",
+          "grade": "A",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 4
+        }
+      ]
+    },
+    {
+      "name": "fi.cr",
+      "children": [
+        {
+          "name": "https://www.promerica.fi.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            }
+          ],
+          "supportsRc4": true,
+          "forwardSecrecy": 0
+        },
+        {
+          "name": "https://www.aldesa.fi.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 768,
+              "name": "SSL",
+              "version": "3.0"
+            },
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.coopeservidores.fi.cr",
+          "grade": "A",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 2
+        },
+        {
+          "name": "https://www.coopebanpo.fi.cr",
+          "grade": "B",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 1
+        },
+        {
+          "name": "https://www.scotiabank.fi.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.opcccss.fi.cr",
+          "grade": "F",
+          "protocols": []
+        },
+        {
+          "name": "https://www.mvalores.fi.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 512,
+              "name": "SSL",
+              "version": "2.0",
+              "q": 0
+            },
+            {
+              "id": 768,
+              "name": "SSL",
+              "version": "3.0"
+            },
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            }
+          ],
+          "supportsRc4": true,
+          "forwardSecrecy": 2
+        },
+        {
+          "name": "https://www.banhvi.fi.cr",
+          "grade": "F",
+          "protocols": []
+        },
+        {
+          "name": "https://www.cajadeande.fi.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": true,
+          "forwardSecrecy": 1
+        },
+        {
+          "name": "https://www.cscitas.fi.cr",
+          "grade": "A",
+          "protocols": [
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 4
+        },
+        {
+          "name": "https://www.credecoop.fi.cr",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.aldesa.fi.cr/",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 768,
+              "name": "SSL",
+              "version": "3.0"
+            },
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.coopeaya.fi.cr/",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.davivienda.fi.cr/",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.cu.fi.cr/",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.csm.fi.cr/",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://camaradebancos.fi.cr/",
+          "grade": "F",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "https://www.cafsa.fi.cr/",
+          "grade": "F",
+          "protocols": []
+        },
+        {
+          "name": "https://www.sugese.fi.cr",
+          "grade": "F",
+          "protocols": []
+        },
+        {
+          "name": "https://www.supen.fi.cr/",
+          "grade": "C",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 1
+        },
+        {
+          "name": "https://www.supen.fi.cr/",
+          "grade": "C",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 1
+        },
+        {
+          "name": "https://www.bccr.fi.cr",
+          "grade": "F",
+          "protocols": []
+        },
+        {
+          "name": "https://www.desyfin.fi.cr/",
+          "grade": "A",
+          "protocols": [
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": false,
+          "forwardSecrecy": 4
+        },
+        {
+          "name": "https://www.fincomeca.fi.cr",
+          "grade": "C",
+          "protocols": [
+            {
+              "id": 768,
+              "name": "SSL",
+              "version": "3.0"
+            },
+            {
+              "id": 769,
+              "name": "TLS",
+              "version": "1.0"
+            },
+            {
+              "id": 770,
+              "name": "TLS",
+              "version": "1.1"
+            },
+            {
+              "id": 771,
+              "name": "TLS",
+              "version": "1.2"
+            }
+          ],
+          "supportsRc4": true,
+          "forwardSecrecy": 1
+        }
+      ]
+    }
+  ]
+}

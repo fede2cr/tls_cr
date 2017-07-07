@@ -26,24 +26,9 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var treeData =
-  {
-    "name": "Costa Rica",
-    "children": [
-      { 
-        "name": "Go.cr",
-        "children": [
-          { "name": "www.mideplan.go.cr" },
-          { "name": "www.poder-judicial.go.cr" }
-        ]
-      },
-      { "name": "Fi.cr" }
-    ]
-  };
 
-//var treeData = require("./ssltree.json");
-
-
+d3.json("data/d3.json", function(error, treeData) {
+  if (error) throw error;
 // Set the dimensions and margins of the diagram
 var margin = {top: 20, right: 90, bottom: 30, left: 90},
     width = 960 - margin.left - margin.right,
@@ -75,6 +60,7 @@ root.y0 = 0;
 root.children.forEach(collapse);
 
 update(root);
+
 
 // Collapse the node and all it's children
 function collapse(d) {
@@ -226,6 +212,7 @@ function update(source) {
   }
 }
 
+});
 </script>
 </body>
 
